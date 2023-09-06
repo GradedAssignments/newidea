@@ -74,7 +74,7 @@ const flowNotes = addKeyword(['Notes', 'Notes Chaiye', 'PYQ'])
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowSecundario]
     )
 
 const main = async () => {
