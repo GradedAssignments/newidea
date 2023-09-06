@@ -62,6 +62,21 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         [flowDocs, flowGracias, flowTuto, flowDiscord]
     )
 
+
+const flowNotes = addKeyword(['Notes', 'Notes Chaiye', 'PYQ'])
+    .addAnswer('🙌 Ok ok Bhai Wait We Are Working On This Abhi Chal Hi Rahah h You can Find More Details On IITM Students Community Website *Chatbot*')
+    .addAnswer(
+        [
+            'te comparto los siguientes links de interes sobre el proyecto',
+            '👉 *doc* para ver la documentación',
+            '👉 *gracias*  para ver la lista de videos',
+            '👉 *discord* unirte al discord',
+        ],
+        null,
+        null,
+        [flowDocs, flowGracias, flowTuto, flowDiscord]
+    )
+
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([flowPrincipal])
