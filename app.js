@@ -17,6 +17,19 @@ const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswe
     [flowSecundario]
 )
 
+const flowNotes = addKeyword(['Notes', 'Notes Chaiye', 'PYQ'])
+    .addAnswer('🙌 Ok ok Bhai Wait We Are Working On This Abhi Chal Hi Rahah h You can Find More Details On IITM Students Community Website *Chatbot*')
+    .addAnswer(
+        [
+            'te comparto los siguientes links de interes sobre el proyecto',
+            '👉 *doc* para ver la documentación',
+            '👉 *gracias*  para ver la lista de videos',
+            '👉 *discord* unirte al discord',
+        ],
+        null,
+        null,
+        [flowSecundario]
+    )
 const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [
         '🙌 Aquí encontras un ejemplo rapido',
@@ -63,19 +76,6 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     )
 
 
-const flowNotes = addKeyword(['Notes', 'Notes Chaiye', 'PYQ'])
-    .addAnswer('🙌 Ok ok Bhai Wait We Are Working On This Abhi Chal Hi Rahah h You can Find More Details On IITM Students Community Website *Chatbot*')
-    .addAnswer(
-        [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
-        ],
-        null,
-        null,
-        [flowSecundario]
-    )
 
 const main = async () => {
     const adapterDB = new MockAdapter()
