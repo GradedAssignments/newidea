@@ -75,7 +75,17 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         [flowDocs, flowGracias, flowTuto, flowDiscord, flowNotes]
     )
 
-
+const flowPrincipal = addKeyword(['Iitmadras',])
+    .addAnswer('🙌 Hola bhai Aur Sab Badiya kya Bro bienvenido a este *Chatbot*')
+    .addAnswer(
+        [
+            'te comparto los siguientes links de interes sobre el proyecto',
+            '👉 *doc* para ver la documentación',
+            '👉 *gracias*  para ver la lista de videos',
+            '👉 *discord* unirte al discord',
+        ],
+        null,
+        null,
 
 const main = async () => {
     const adapterDB = new MockAdapter()
@@ -90,5 +100,6 @@ const main = async () => {
 
     QRPortalWeb()
 }
+)
 
 main()
