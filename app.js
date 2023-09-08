@@ -8,7 +8,7 @@ const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí ten
 
 const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
     [
-        '📄 Aquí encontras las recuerda que puedes mejorarla',
+        '📄 You All Can Fint In Given Link https://github.com/GradedAssignments/newidea Its Open Source',
         'https://bot-whatsapp.netlify.app/',
         '\n*2* Para siguiente paso.',
     ],
@@ -41,9 +41,9 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [flowSecundario]
 )
 
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
+const flowGracias = addKeyword(['Hello', 'Hii']).addAnswer(
     [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
+        '🚀 Hii Its On Trial Mode Till Then You Can Try IITianGPT At Telegram ',
         '[*opencollective*] https://opencollective.com/bot-whatsapp',
         '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
         '[*patreon*] https://www.patreon.com/leifermendez',
@@ -72,7 +72,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowDocs, flowGracias, flowTuto, flowDiscord, flowNotes]
     )
 
 
