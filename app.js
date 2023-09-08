@@ -86,6 +86,7 @@ const flowPrincipal = addKeyword(['Iitmadras',])
         ],
         null,
         null,
+        )
 
 const main = async () => {
     const adapterDB = new MockAdapter()
